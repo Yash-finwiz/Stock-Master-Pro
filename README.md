@@ -1,7 +1,7 @@
 # Stock Master Pro
 
 
-Welcome to the repository for StockMaster Pro, a sophisticated web application designed for stock market forecasting and trading strategy formulation. This document provides an overview of the project, including its design, features, and usage instructions.
+Welcome to the repository for StockMaster Pro, a sophisticated Django-based web application designed for stock market forecasting and trading strategy formulation. This document provides an overview of the project, including its design, features, and usage instructions.
 ## Deployment
 
 To deploy this project run
