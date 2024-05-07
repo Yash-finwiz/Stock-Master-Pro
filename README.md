@@ -1,4 +1,3 @@
-
 # Stock Master Pro
 
 
@@ -78,33 +77,41 @@ StockMaster Pro leverages advanced machine learning models and technical analysi
 3. Pattern Analyzer
 4. Algorithmic Trading
 5. Technical Scan
+![Screenshot 2024-05-05 205514](https://github.com/YASH260/Stock-Master-Pro/assets/59645048/91a54fbf-cd44-4c4a-958d-9aec2ba2466b)
 
 ##
 
 
 ## 1. Stock Price Forecasting
-StockMaster Pro incorporates three powerful forecasting models, each selected for their robustness and effectiveness in handling different aspects of stock price prediction. Here's a more detailed look at each:
+StockMaster Pro incorporates three powerful forecasting models, each selected for its robustness and effectiveness in handling different aspects of stock price prediction. Here's a more detailed look at each:
 
 
 ## a. using Lstm
 
 Utilized for more complex data sequences where the order and timing of historical data points matter. LSTM captures long-term dependencies and can remember information over extended periods, making it suitable for predicting stock price movements over longer horizons.
+![Screenshot 2024-05-07 203003](https://github.com/YASH260/Stock-Master-Pro/assets/59645048/38301186-a6aa-430b-83ab-e493c55be582)
+
 
 ## b. using Arima
 
 Primarily employed for short-term forecasting of non-seasonal time series data. ARIMA analyzes trends and non-constant variance to predict future stock prices based on past price movements.
+![Screenshot 2024-04-21 205406](https://github.com/YASH260/Stock-Master-Pro/assets/59645048/43be638a-0abf-4336-93e1-09dae081812e)
 
 ## c. using Prophet
 Designed to handle time series data with strong seasonal effects and historical trend changes. Prophet accommodates missing data and outliers, making it robust for forecasting stocks affected by anomalies or external events.
+![Screenshot 2024-04-21 205552](https://github.com/YASH260/Stock-Master-Pro/assets/59645048/ff4986ab-bc1f-484a-97c9-a2b2c156ea49)
 
 
 ## 2. Sentimental Analysis
 This module incorporates market sentiment analysis as a key component for predicting market movements based on public perception. This analysis involves the utilization of XLNet for Reddit and RoBERTa for Twitter to extract valuable insights from textual data and gauge the sentiment of market participants.
+
+
 ## a. XLNet for Reddit:
 XLNet, a powerful language model, is utilized to analyze textual data from Reddit. By applying XLNet, StockMaster Pro can extract sentiment-related insights from Reddit posts and comments, providing an understanding of the overall sentiment towards specific stocks or market trends.
 
 ## b. RoBERTa for Twitter:
 StockMaster Pro leverages RoBERTa, an advanced language model, to analyze textual data from Twitter. By utilizing RoBERTa's natural language processing capabilities, StockMaster Pro can extract sentiment-related information from tweets, enabling an understanding of the sentiment of the market based on public opinions and discussions.
+![Screenshot 2024-04-21 210302](https://github.com/YASH260/Stock-Master-Pro/assets/59645048/06b24e61-163f-44bc-b579-695ff25a4d5f)
 
 ## 3. Pattern Analyzer
 StockMaster Pro utilizes TA-Lib for automatic candlestick pattern recognition. This powerful technical analysis library identifies and analyzes candlestick patterns in stock price charts, providing valuable insights for traders and investors. By leveraging TA-Lib, StockMaster Pro helps users identify potential market trends and make informed decisions based on historical price patterns.
@@ -114,12 +121,13 @@ Inputs:
 1. Stock name
 2. Pattern name
 Output:
-1. A visually appealing plot with requested pattern.
+1. A visually appealing plot with the requested pattern.
 ```
+![Screenshot 2024-05-07 203250](https://github.com/YASH260/Stock-Master-Pro/assets/59645048/5e1d19e5-7d5a-4ce5-91a4-ee3177590037)
 
 
 ## 4. Algorithmic Trading
-For any requested stock, this module now backtests a hardcoded trading strategy and generates a visually appealing report with information on the number of trades, total returns, maximum drawdown, and average return.
+For any requested stock, this module now backtests a hardcoded trading strategy. It generates a visually appealing report with information on the number of trades, total returns, maximum drawdown, and average return.
 ``` bash
 Inputs:
 1. Stock name
@@ -127,9 +135,10 @@ Inputs:
 Output:
 1. A plot indicating the backtest results for the requested stock.  
 ```
+![trade_plot](https://github.com/YASH260/Stock-Master-Pro/assets/59645048/15f6873c-efbc-4a15-8df7-8d8c7861aba0)
 
 
-## 5. Technial Scan
+## 5. Technical Scan
 StockMaster Pro integrates a KNN-based algorithm for real-time market trend analysis and buy/sell signal identification. This algorithm considers Rate of Change (ROC), Commodity Channel Index (CCI), Volume, and Relative Strength Index (RSI) as features. By analyzing these indicators, StockMaster Pro provides users with concise and precise insights into market trends and potential trading opportunities
 
 ``` bash
@@ -137,15 +146,16 @@ Inputs:
 1. Stock name
 
 Output:
-1. A visually appealing plot indicating buy and sell signals for the requested stock.
+1. A visually appealing plot indicates the requested stock's buy and sell signals.
 
 ```
+![Screenshot 2024-04-21 211100](https://github.com/YASH260/Stock-Master-Pro/assets/59645048/5a8ccf8e-7ac0-49f7-9a22-5eebdf5aaba0)
 
 
 ## Contributing
 
-* Please feel free to suggest improvements, bugs by creating an issue.
-* Please follow the [Guidelines for Contributing](Stock-Master-Pro\CONTRIBUTING.md) while making a pull request.
+* Please feel free to suggest improvements, or bugs by creating an issue.
+* Please follow the [Guidelines for Contributing](https://github.com/YASH260/Stock-Master-Pro/blob/main/CONTRIBUTING.md) while making a pull request.
 * Stay tuned for Upcoming Features for a list of exciting features we plan to implement in the future.
 
 ## Disclaimer
