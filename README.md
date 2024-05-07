@@ -111,6 +111,12 @@ XLNet, a powerful language model, is utilized to analyze textual data from Reddi
 
 ## b. RoBERTa for Twitter:
 StockMaster Pro leverages RoBERTa, an advanced language model, to analyze textual data from Twitter. By utilizing RoBERTa's natural language processing capabilities, StockMaster Pro can extract sentiment-related information from tweets, enabling an understanding of the sentiment of the market based on public opinions and discussions.
+``` bash
+Inputs:
+1. Stock name
+Output:
+1. A pie chart 
+```
 ![Screenshot 2024-04-21 210302](https://github.com/YASH260/Stock-Master-Pro/assets/59645048/06b24e61-163f-44bc-b579-695ff25a4d5f)
 
 ## 3. Pattern Analyzer
