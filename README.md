@@ -77,7 +77,7 @@ StockMaster Pro leverages advanced machine learning models and technical analysi
 3. Pattern Analyzer
 4. Algorithmic Trading
 5. Technical Scan
-##
+
 ![Screenshot 2024-05-05 205514](https://github.com/YASH260/Stock-Master-Pro/assets/59645048/91a54fbf-cd44-4c4a-958d-9aec2ba2466b)
 
 ##
@@ -90,16 +90,19 @@ StockMaster Pro incorporates three powerful forecasting models, each selected fo
 ## a. using Lstm
 
 Utilized for more complex data sequences where the order and timing of historical data points matter. LSTM captures long-term dependencies and can remember information over extended periods, making it suitable for predicting stock price movements over longer horizons.
+
 ![Screenshot 2024-05-07 203003](https://github.com/YASH260/Stock-Master-Pro/assets/59645048/38301186-a6aa-430b-83ab-e493c55be582)
 
 
 ## b. using Arima
 
 Primarily employed for short-term forecasting of non-seasonal time series data. ARIMA analyzes trends and non-constant variance to predict future stock prices based on past price movements.
+
 ![Screenshot 2024-04-21 205406](https://github.com/YASH260/Stock-Master-Pro/assets/59645048/43be638a-0abf-4336-93e1-09dae081812e)
 
 ## c. using Prophet
 Designed to handle time series data with strong seasonal effects and historical trend changes. Prophet accommodates missing data and outliers, making it robust for forecasting stocks affected by anomalies or external events.
+
 ![Screenshot 2024-04-21 205552](https://github.com/YASH260/Stock-Master-Pro/assets/59645048/ff4986ab-bc1f-484a-97c9-a2b2c156ea49)
 
 
