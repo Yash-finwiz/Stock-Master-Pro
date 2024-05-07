@@ -77,6 +77,7 @@ StockMaster Pro leverages advanced machine learning models and technical analysi
 3. Pattern Analyzer
 4. Algorithmic Trading
 5. Technical Scan
+##
 ![Screenshot 2024-05-05 205514](https://github.com/YASH260/Stock-Master-Pro/assets/59645048/91a54fbf-cd44-4c4a-958d-9aec2ba2466b)
 
 ##
