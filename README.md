@@ -8,7 +8,7 @@ To deploy this project run
 
 **STEP 1:** Clone repository.
   ```bash
-git clone https://github.com/YASH-SINGH-github/Stock-Master-Pro.git
+git clone https://github.com/Yash-finwiz/Stock-Master-Pro.git
 
 ```
 
